@@ -19,3 +19,9 @@ management:
   health:
     status:
       order: DOWN, OUT_OF_SERVICE, UNKNOWN, UP 
+
+auth:
+  welabs:
+     userinfo:
+        - {username: admin ,password: admin}
+        - {username: test ,password: test}
